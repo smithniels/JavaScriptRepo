@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 html {
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  padding-top: 8%;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -16,14 +24,14 @@ body {
   margin: 0;
   padding-bottom: 25px;
 }
-header{
-    display:flex;
-    margin:0;
-    justify-content: center;
+header {
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
 button {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-content: center;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
@@ -34,21 +42,53 @@ button {
   cursor: pointer;
 }
 
-.container{
-    background-color:lightcyan;
-    border: lightseagreen 5px solid;
-    border-radius: 54px;
-    width:250px;
-    padding:50px 23px;
-    display: flex;
-    justify-content:center;
-    margin: 0 240px;
+.container {
+  background-color: lightcyan;
+  border: lightseagreen 5px solid;
+  border-radius: 54px;
+  width: 250px;
+  padding: 26px 23px;
+  display: flex;
+  justify-content: center;
+  margin: 0 240px;
 }
 
-h2{
-    text-align:center;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding-top: 8%;
+h2 {
+  /* text-align: center; */
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 8%;
+}
+
+.explanation {
+  display: flex;
+  justify-content: flex-start;
+  /* Margin:  440px; */
+  border: black 4px solid;
+  background-color: yellow;
+}
+/*
+.header {
+  justify-content: space-between;
+align-items: center;
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #1f2937;
+
+  height: 75px;
+} */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
 }
