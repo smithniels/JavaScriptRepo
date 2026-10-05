@@ -42,6 +42,10 @@ button {
   cursor: pointer;
 }
 
+code {
+  color: blue;
+}
+
 .container {
   background-color: lightcyan;
   border: lightseagreen 5px solid;

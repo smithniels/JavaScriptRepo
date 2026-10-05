@@ -11,11 +11,11 @@
 
 <body>
     <div class="header">
-        <h1>Increment and Decrement counter</h1>
+        <h1>Increment and Decrement Counter</h1>
     </div>
     <div class="container">
         <button onclick="increment()">+</button>
-        <h2 id="counting"></h2>
+        <h2 id="counting"></h2> <!-- This is the important variable -->
         <button onclick="decrement()">-</button>
         <button onclick="reset()">Reset</button>
     </div>
@@ -25,7 +25,8 @@
             <h2>Explanation</h2>
             <ul>
                 <li>
-                    In this code, we have a simple counter that can be incremented, decremented, and reset. The
+                    In this code, we have a simple counter that can be incremented, decremented, and reset.</li>
+                <li> The
                     counter value
                     is displayed in the <code>h2</code> element with the id <code>counting. </code>
                 </li>
@@ -35,13 +36,14 @@
                 </li>
                 <li>
                     These functions update the counter value and display it in the
-                    <code>h2</code> element.
+                    <code>h2</code> element under <code>data</code>.
                 </li>
-                <li>When each button is pressed 3 things can happen:<ol>
-                        <li>The increment button will add 1 to data</li>
-                        <li>Tbe decrement button will subtract 1 from data</li>
-                        <li>The reset button will set data to 0</li>
-                    </ol>
+                <ol>
+                    <li>The <code>increment() </code>button will add 1 to <code>data</code></li>
+                    <li>Tbe <code>decrement()</code> button will subtract 1 from <code>data</code></li>
+                    <li>The <code>reset()</code> button will set <code>data</code> to 0</li>
+                </ol>
+                </ol>
                 </li>
             </ul>
         </div>
