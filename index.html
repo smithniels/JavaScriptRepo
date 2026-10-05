@@ -31,19 +31,34 @@
                     counter value
                     is displayed in the <code>h2</code> element with the id <code>counting. </code>
                 </li>
-                <li>The<code>increment()</code>, <code>decrement()</code>, and <code>reset()</code> functions are
+                <li>The<code class="tooltip"><span class="tooltiptext">function increment() {
+                                            data = ++data;
+                                            document.getElementById("counting").innerText = data;
+                                            }</span>increment() </code>, <code class="tooltip"><span class="tooltiptext">function decrement() {
+                                                                data = data - 1;
+                                                                document.getElementById("counting").innerText = data;
+                                                                }</span>decrement()</code> button
+                    will
+                    subtract 1 from <code class="tooltip"><span class="tooltiptext">let data = 0;
+                    document.getElementById("counting").innerText = data;</span>data</code>, and
+                    <code class="tooltip"> <span class="tooltiptext">function
+                         reset() {
+                                        data = 0;
+                                        document.getElementById("counting").innerText = data;
+                                        }</span>reset()</code> functions are
                     called
                     when the respective buttons are clicked.
                 </li>
                 <li>
                     These functions update the counter value and display it in the
                     <code>h2</code> element under <code>data</code>.
+                    <!-- <h2 id="counting"></h2> -->
                 </li>
                 <ol>
-                    <li>The <code class="tooltip"><span class="tooltiptext">function increment() {
-                            data = ++data;
-                            document.getElementById("counting").innerText = data;
-                            }</span>increment() </code>button
+                    <li>The HEREHEREHERE <code class="tooltip"><span class="tooltiptext"> function increment() {
+                        data = ++data;
+                        document.getElementById("counting").innerText = data;
+                        }</span>increment() </code>button
                         will add 1 to <code>data</code>.</li>
                     <li>The <code class="tooltip"><span class="tooltiptext">function decrement() {
                     data = data - 1;
