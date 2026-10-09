@@ -20,7 +20,7 @@
         <button onclick="reset()">Reset</button>
     </div>
 
-    <div class="Explanation">
+    <div class="explanation">
         <div>
 
             <h2>Explanation</h2>
@@ -31,10 +31,10 @@
                     counter value
                     is displayed in the <code>h2</code> element with the id <code>counting. </code>
                 </li>
-                <li>The<code class="tooltip"><span class="tooltiptext">function increment() {
+                <li>The <code class="tooltip"><span class="tooltiptext">function increment() {
                     data = ++data;
                     document.getElementById("counting").innerText = data;
-                    }</span>increment() </code>, <code class="tooltip"><span class="tooltiptext">function decrement() {
+}</span>increment() </code>, <code class="tooltip"><span class="tooltiptext">function decrement() {
                     data = data - 1;
                     document.getElementById("counting").innerText = data;
                     }</span>decrement()</code> button
@@ -48,25 +48,29 @@ document.getElementById("counting").innerText = data;</span>data</code>, and
                 </li>
                 <li>
                     These functions update the counter value and display it in the
-                    <code>h2</code> element under <code>data</code>.
+                    <code>h2</code> element under <code class="tooltip"><span class="tooltiptext">let data = 0;
+document.getElementById("counting").innerText = data;</span>data</code>.
                     <!-- <h2 id="counting"></h2> -->
                 </li>
                 <ol>
-                    <li>The<code class="tooltip"><span class="tooltiptext"> function increment() {
+                    <li>The <code class="tooltip"><span class="tooltiptext"> function increment() {
                         data = ++data;
                         document.getElementById("counting").innerText = data;
-                        }</span>increment() </code>button
-                        will add 1 to <code>data</code>.</li>
+}</span>increment()</code>button
+                        will add 1 to <code class="tooltip"><span class="tooltiptext">let data = 0;
+document.getElementById("counting").innerText = data;</span>data</code>.</li>
                     <li>The <code class="tooltip"><span class="tooltiptext">function decrement() {
                     data = data - 1;
                     document.getElementById("counting").innerText = data;
                     }</span>decrement()</code> button
                         will
-                        subtract 1 from <code>data</code>.</li>
+                        subtract 1 from <code class="tooltip"><span class="tooltiptext">let data = 0;
+                    document.getElementById("counting").innerText = data;</span>data</code>.</li>
                     <li>The <code class="tooltip"> <span class="tooltiptext">function reset() {
                     data = 0;
                     document.getElementById("counting").innerText = data;
-                    }</span>reset()</code> button will set <code>data</code> to 0.</li>
+                    }</span>reset()</code> button will set <code class="tooltip"><span class="tooltiptext">let data = 0;
+document.getElementById("counting").innerText = data;</span>data</code> to 0.</li>
                 </ol>
 
                 <!-- </ol> -->
